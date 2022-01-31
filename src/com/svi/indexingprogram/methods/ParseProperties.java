@@ -12,8 +12,8 @@ import com.svi.indexingprogram.objects.*;
 
 public class ParseProperties {
 	/**
-     * Method for displaying Program Version and reading all Excel files in Input_directory from config.properties
-     *  @return Program Version and Excel files in Input_Directory
+     * Method for getting and displaying Program Version a from config.properties
+     *  @return Program Version
      */
 	public static void parseProperties() throws IOException {
 		// Getting 'Input Directory' and saving it to 'excelDirectory' variable

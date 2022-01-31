@@ -16,6 +16,10 @@ import com.svi.indexingprogram.objects.*;
 
 public class SearchExcelFiles {
 
+	/**
+     * Method for reading  all Excel files in Input_directory from config.properties
+     *  @return  Excel files in Input_Directory
+     */
 	@SuppressWarnings("static-access")
 	public static void searchExcelFiles() throws IOException {
 		int count = 0;

@@ -11,8 +11,9 @@ public class Program {
 		do {
 			@SuppressWarnings("resource")
 			Scanner userInput = new Scanner(System.in);
-			SearchExcelFiles.searchExcelFiles();
-			DisplayExcelFiles.displayExcelFiles();
+			SearchExcelFiles.searchExcelFiles(); //searching the word in all excel files
+			DisplayExcelFiles.displayExcelFiles(); //displaying all search results using hashmap and arraylist
+			
 			//Program will exit once user input 'n'.
 			do {
 				System.out.println("Do you want to search again(y/n)");

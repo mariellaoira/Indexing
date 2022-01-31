@@ -8,6 +8,10 @@ import java.util.Map;
 import com.svi.indexingprogram.objects.*;
 
 public class DisplayExcelFiles {
+	/**
+     * Method for storing Search Results in a hashmap and displaying all result values
+     * @return Search Results based on user's input text to be searched.
+     */
 	public static void displayExcelFiles() throws IOException {
 		// Will store the 'searched text' and the searchResults ArrayList collection
 		Map<String, ArrayList<String>> searchResultMap = new HashMap<String, ArrayList<String>>();
